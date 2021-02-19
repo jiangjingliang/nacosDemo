@@ -1,0 +1,18 @@
+
+spring:
+  application:
+    name: gwm-marketing-community-server
+  cloud:
+    nacos:
+      discovery:
+        server-addr: nacos-0.nacos-hs.default.svc.cluster.local:8848,nacos-1.nacos-hs.default.svc.cluster.local:8848,nacos-2.nacos-hs.default.svc.cluster.local:8848
+      config:
+        server-addr: nacos-0.nacos-hs.default.svc.cluster.local:8848,nacos-1.nacos-hs.default.svc.cluster.local:8848,nacos-2.nacos-hs.default.svc.cluster.local:8848
+        file-extension: yaml
+        extensionConfigs:
+          - data-id: gwm-common-dev.yaml
+            refresh: true
+          - data-id: gwm-marketing-community-server-dev.yaml
+            refresh: true
+  main:
+    allow-bean-definition-overriding: true
