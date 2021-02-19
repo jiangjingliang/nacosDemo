@@ -1,0 +1,22 @@
+{
+  "groups": [
+    {
+      "name": "person.info",
+      "type": "com.jiang.config.PersonPojo",
+      "sourceType": "com.jiang.config.PersonPojo"
+    }
+  ],
+  "properties": [
+    {
+      "name": "person.info.age",
+      "type": "java.lang.Integer",
+      "sourceType": "com.jiang.config.PersonPojo"
+    },
+    {
+      "name": "person.info.name",
+      "type": "java.lang.String",
+      "sourceType": "com.jiang.config.PersonPojo"
+    }
+  ],
+  "hints": []
+}

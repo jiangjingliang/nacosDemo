@@ -1,0 +1,21 @@
+server:
+  port: 1991
+spring:
+  application:
+    name: nacos-producer
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 127.0.0.1:8848
+      config:
+        server-addr: 127.0.0.1:8848
+        file-extension: yaml
+        extensionConfigs:
+          - data-id: nacos-producer-local.yaml
+            refresh: true
+          #- data-id: nacos-jiang-server.yaml
+            #refresh: true
+
+  # application.yml 可以通过 logging.config 属性指定自定义的名字：
+  #logging:
+  #config: classpath:logback-spring.xml

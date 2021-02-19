@@ -1,0 +1,4 @@
+com\jiang\config\PersonPojo.class
+com\jiang\TestApplication.class
+com\jiang\config\SwaggerConfig.class
+com\jiang\controller\TestController.class
