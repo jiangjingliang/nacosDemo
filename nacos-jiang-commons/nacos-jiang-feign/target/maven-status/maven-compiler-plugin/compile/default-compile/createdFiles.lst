@@ -1,0 +1,4 @@
+com\jiang\test\TestFeign.class
+com\jiang\dto\TestDto.class
+com\jiang\fallback\EchoServiceFallback.class
+com\jiang\fallback\FeignConfiguration.class
